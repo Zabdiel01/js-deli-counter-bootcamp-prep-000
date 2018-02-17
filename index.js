@@ -16,7 +16,8 @@ function currentLine(katzDeli) {
   } else {
       var array = [];
     for (var i = 0; i < katzDeli.length; i++) {
-   return "The line is currently: 
+      array.push(i+1+"."+katzDeli[i])
+   return "The line is currently: " + array.join(", ")
     }
   }
 }
