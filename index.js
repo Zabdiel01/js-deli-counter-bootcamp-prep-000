@@ -14,8 +14,9 @@ function currentLine(katzDeli) {
   if (katzDeli.length<1) {
     return "The line is currently empty."
   } else {
-    var array = [];
-    for (var i = 0; i < katzDeli.length; i++)
-   return "The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}, 3. ${katzDeli[2]}  
-    }
+  //  var array = [];
+   // for (var i = 0; i < katzDeli.length; i++) {
+   return "The line is currently: 1. ${katzDeli[0]}, 2. ${katzDeli[1]}, 3. ${katzDeli[2]}" 
+ //   }
+  }
 }
